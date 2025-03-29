@@ -43,13 +43,13 @@ export default function Home() {
           </div>
           <div className="flex items-center">
             <Button variant="outline" size="sm" className="mr-2 hidden sm:flex" asChild>
-              <Link href="/resources">
+              <Link href="https://app.klingai.com/global/community/material">
                 <ExternalLink className="mr-2 h-4 w-4" />
                 Resources
               </Link>
             </Button>
             <Button variant="default" size="sm" className="bg-gradient-to-r from-primary to-secondary" asChild>
-              <Link href="/demo">
+              <Link href="https://instagram.com/neural_wilderness">
                 <Play className="mr-2 h-4 w-4" />
                 <span className="hidden sm:inline">Watch Demo</span>
                 <span className="sm:hidden">Demo</span>
@@ -71,10 +71,10 @@ export default function Home() {
             </p>
             <div className="mt-6 md:mt-8 flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
               <Button size="lg" className="w-full sm:w-auto bg-gradient-to-r from-primary to-secondary" asChild>
-                <Link href="/tools">Explore Top Tools</Link>
+                <Link href="https://runwayml.com/">Explore Top Tools</Link>
               </Button>
               <Button size="lg" variant="outline" className="w-full sm:w-auto mt-3 sm:mt-0" asChild>
-                <Link href="/guides">Read Latest Guides</Link>
+                <Link href="https://www.copy.ai/blog/ai-content-creation">Read Latest Guides</Link>
               </Button>
             </div>
           </div>
@@ -122,7 +122,7 @@ export default function Home() {
             <ToolCard
               name="Runway ML"
               description="Advanced AI video generation platform with text-to-video, image-to-video, and video editing capabilities."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/runway.png?height=200&width=400"
               rating={4.8}
               link="https://runwayml.com"
               tags={["Text-to-Video", "Image-to-Video", "Editing"]}
@@ -130,7 +130,7 @@ export default function Home() {
             <ToolCard
               name="Synthesia"
               description="Create AI videos with virtual presenters speaking your script in over 120 languages."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/synthesys.jpeg?height=200&width=400"
               rating={4.6}
               link="https://synthesia.io"
               tags={["Virtual Presenters", "Multilingual", "Business"]}
@@ -138,7 +138,7 @@ export default function Home() {
             <ToolCard
               name="D-ID"
               description="Turn text and images into talking avatar videos with realistic speech and expressions."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/D-id.png?height=200&width=400"
               rating={4.5}
               link="https://d-id.com"
               tags={["Digital Humans", "Avatars", "Text-to-Video"]}
@@ -153,7 +153,7 @@ export default function Home() {
             <ToolCard
               name="Kling AI"
               description="Create AI-generated videos with realistic digital humans and customizable scripts in multiple languages."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/klingai.png?height=200&width=400"
               rating={4.3}
               link="https://kling.ai"
               tags={["Digital Humans", "Multilingual", "Customizable"]}
@@ -161,7 +161,7 @@ export default function Home() {
             <ToolCard
               name="Adobe Firefly"
               description="Adobe's AI image and video generation tool with seamless integration into Creative Cloud apps."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/adobe firefly.jpeg?height=200&width=400"
               rating={4.7}
               link="https://firefly.adobe.com"
               tags={["Creative Cloud", "Image-to-Video", "Professional"]}
@@ -169,7 +169,7 @@ export default function Home() {
             <ToolCard
               name="Hailuo AI"
               description="Minimax's advanced AI video generation platform with high-quality text-to-video capabilities."
-              image="/placeholder.svg?height=200&width=400"
+              image="/images/minimax.png?height=200&width=400"
               rating={4.4}
               link="https://minimax.io/hailuo"
               tags={["Text-to-Video", "High Quality", "Animation"]}

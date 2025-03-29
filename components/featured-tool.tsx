@@ -10,10 +10,18 @@ export function FeaturedTool() {
       <div className="md:grid md:grid-cols-2">
         <div className="relative aspect-video md:aspect-auto md:h-full">
           <img
-            src="/placeholder.svg?height=400&width=600"
+            // src="public/images/runway.png"
+            // alt="Runway ML Gen-2 interface"
+            // className="h-full w-full object-cover"
+            
+            src="/images/Runwaymain.png"
             alt="Runway ML Gen-2 interface"
+            width={500}
+            height={300}
             className="h-full w-full object-cover"
           />
+⚡
+         
           <div className="absolute left-4 top-4">
             <Badge className="bg-primary px-3 py-1 text-sm font-medium">Featured Tool</Badge>
           </div>
@@ -27,7 +35,7 @@ export function FeaturedTool() {
             </div>
           </div>
           <p className="mb-6 text-muted-foreground">
-            Runway ML has revolutionized AI video generation with their Gen-2 model, offering unprecedented quality and
+            Runway ML has revolutionized AI video generation with their new Gen-3 Alpha model, offering unprecedented quality and
             control. Create videos from text prompts, images, or edit existing videos with AI-powered tools.
           </p>
 
@@ -50,7 +58,7 @@ export function FeaturedTool() {
             </div>
             <div className="flex items-start">
               <Check className="mr-2 h-5 w-5 text-primary" />
-              <span className="text-sm">Gen-2 Model</span>
+              <span className="text-sm">Latest Gen-3 Alpha Model</span>
             </div>
             <div className="flex items-start">
               <Check className="mr-2 h-5 w-5 text-primary" />
@@ -60,7 +68,7 @@ export function FeaturedTool() {
 
           <div className="mt-auto flex flex-wrap gap-3">
             <Button asChild className="bg-gradient-to-r from-primary to-secondary">
-              <Link href="/tools/runway-ml">Read Full Review</Link>
+              <Link href="https://10web.io/ai-tools/runway/#:~:text=This%20versatile%20tool%20offers%20a,animation%20to%20craft%20compelling%20media.">Read Full Review</Link>
             </Button>
             <Button asChild variant="outline">
               <a href="https://runwayml.com" target="_blank" rel="noopener noreferrer">
