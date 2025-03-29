@@ -50,6 +50,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import AdSense from "@/components/Adsense"; // Correctly imported AdSense
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -65,6 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className="light" suppressHydrationWarning>
       <head>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="google-adsense-account" content="ca-pub-1719878509694138"></meta>
       </head>
       <body className={inter.className} suppressHydrationWarning>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
