@@ -31,15 +31,15 @@ export default function Home() {
             <Link href="/tools" className="text-sm font-medium hover:text-primary">
               Tools
             </Link>
-            <Link href="/tutorials" className="text-sm font-medium hover:text-primary">
+            <Link href="https://instagram.com/neural_wilderness" className="text-sm font-medium hover:text-primary">
               Tutorials
             </Link>
-            <Link href="/comparisons" className="text-sm font-medium hover:text-primary">
-              Comparisons
-            </Link>
+            <Link href="https://www.synthesia.io/post/ai-tools" className="text-sm font-medium hover:text-primary">
+              Comparisons</Link>
+            {/* </Link>
             <Link href="/resources" className="text-sm font-medium hover:text-primary">
-              Resources
-            </Link>
+              Resources */}
+            
           </div>
           <div className="flex items-center">
             <Button variant="outline" size="sm" className="mr-2 hidden sm:flex" asChild>
